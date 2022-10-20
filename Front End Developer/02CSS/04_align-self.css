@@ -1,0 +1,25 @@
+.flex_container2 {
+  width: 600px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+.in {
+  border: solid 2px black;
+  box-sizing: border-box;
+  background-color: red;
+}
+.inner21 {
+  width: 150px;
+  height: 100px;
+  align-self: flex-end;
+}
+.inner22 {
+  width: 200px;
+  height: 200px;
+}
+.inner23 {
+  width: 250px;
+  height: 300px;
+}

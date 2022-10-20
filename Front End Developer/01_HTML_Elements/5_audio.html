@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Testing File</title>
+  </head>
+  <body>
+    <!--  Way of import the audio step 1 -->
+    <audio controls><source src="./audio/testing_audio.mp3" /></audio>
+
+    <audio controls>
+      <source src="./audio/testng_audio.mp3" />
+      <source src="./audio/testing_audio.mp3" />
+    </audio>
+
+    <!--  Way of import the audioo method -II -->
+    <audio controls src="audio/testing_audio.mp3"></audio>
+    <!-- controls will be displayed on the screen to operate the audio controls ... -->
+    <!-- Autoplay -->
+    <!--  Loop Means After completing  the song it will loops for ever ..  -->
+    <!-- ------------------------------------------------------- -->
+    <!-- LOOP -->
+    <audio controls autoplay loop src="audio/testing_audio.mp3"></audio>
+
+    <!--  MUTED -->
+    <audio controls loop muted src="audio/testing_audio.mp3"></audio>
+  </body>
+</html>

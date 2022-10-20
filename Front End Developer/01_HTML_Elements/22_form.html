@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <!-- 
+      <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text"> (default value)
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+
+<input>
+<textarea>
+<button>
+<select>
+<option>
+<optgroup>
+<fieldset>
+<label>
+<output>
+
+     -->
+    <form action="/action_page.php" id="main_form">
+      <p><label for="w3review">Review of W3Schools:</label></p>
+      <textarea autofocus id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea
+      >
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- A text area located outside a form (but still a part of the form): -->
+    <textarea
+      name="text_info"
+      form="main_form"
+      id=""
+      cols="30"
+      rows="10"
+    ></textarea>
+    <br /><textarea
+      disabled
+      name="text_info"
+      form="main_form"
+      id=""
+      cols="30"
+      rows="10"
+    ></textarea>
+    <br />
+
+    <textarea name="" id="" cols="20" rows="4" maxlength="50"></textarea>
+    <textarea name="" id="" cols="50" rows="5" readonly>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio temporibus quae perspiciatis esse illo hic? Atque magnam qui similique quas, in consequuntur quidem voluptatibus aliquid. Doloribus soluta placeat dignissimos nobis?</textarea
+    >
+  </body>
+</html>
