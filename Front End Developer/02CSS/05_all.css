@@ -1,0 +1,9 @@
+/*  all  */
+/* Reset all setting OR properity */
+.para_1,
+.para_2 {
+  background-color: yellow;
+  font-size: 20px;
+  color: green;
+  all: initial;
+}
