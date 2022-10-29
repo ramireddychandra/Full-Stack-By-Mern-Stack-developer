@@ -1,0 +1,15 @@
+ul.a {
+  list-style-type: lower-latin;
+}
+ul.b {
+  list-style-type: armenian;
+  list-style-position: inside;
+}
+ol.c {
+  list-style-type: upper-roman;
+}
+ol.d {
+  list-style-image: url(./Dinner.png);
+}
+
+/* table */

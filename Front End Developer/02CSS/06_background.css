@@ -1,0 +1,22 @@
+.container6 {
+  background-image: url(./Dinner.png);
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-size: cover; */
+  /* background-position: top right;
+  background-position: bottom right;
+  background-position: center top; */
+
+  /* background-origin: padding-box; */
+  /* background-origin: border-box; */
+  /* background-origin: content-box; */
+
+  /* background-clip: padding-box; */
+  /* background-clip: border-box; */
+  /* background-clip: content-box; */
+
+  /* background-blend-mode: color-burn; */
+
+  background-position: center top;
+  /* background-attachment: fixed; */
+}

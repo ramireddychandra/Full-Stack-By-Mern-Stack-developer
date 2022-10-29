@@ -1,0 +1,11 @@
+.container11 {
+  /* width: 500px; */
+  /* height: 500px; */
+  min-width: 500px;
+  min-height: 500px;
+  /* max-width: 500px; */
+  /* max-height: 500px; */
+  background-color: red;
+  overflow: hidden;
+  /* box-sizing: border-box; */
+}

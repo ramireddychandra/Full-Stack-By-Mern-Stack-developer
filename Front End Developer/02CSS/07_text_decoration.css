@@ -1,0 +1,31 @@
+h3 {
+  color: red;
+  /* text-decoration-color: blue;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: wavy;
+  text-decoration: solid;
+  text-decoration: line-through;
+  text-decoration: double underline;
+  text-decoration: dashed underline;
+  text-decoration: dotted underline; */
+
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 5px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 15px;
+}
+p.lorem {
+  text-indent: 50px;
+  line-height: 2;
+  word-spacing: 10px;
+}
+p.test {
+  white-space: " ";
+}
+
+/* Lists */

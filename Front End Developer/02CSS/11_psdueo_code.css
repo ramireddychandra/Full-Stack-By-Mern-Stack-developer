@@ -1,0 +1,19 @@
+/* descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~) */
+
+/* .name {
+  display: none;
+} */
+
+div:hover .name {
+  display: block;
+}
+
+/* .con2 p:first-child {
+  color: red;
+} */
+.con2 p:first-of-type {
+  color: red;
+}

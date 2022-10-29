@@ -1,0 +1,17 @@
+th,
+td {
+  padding: 15px;
+  border: solid 1px black;
+  vertical-align: bottom;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: azure;
+}
+tr:hover {
+  background-color: aquamarine;
+}
