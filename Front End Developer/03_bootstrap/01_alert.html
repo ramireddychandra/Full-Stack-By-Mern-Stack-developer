@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <div class="alert alert-danger">
@@ -43,6 +42,21 @@
       >
         <span aria-hidden="true">&times;</span>
       </button>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Success!</strong> This alert box could indicate a successful or
+      positive action.
+    </div>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="btn-close" data-bd-dismiss="alert"></button>
+      <strong> Primary</strong> This alert box could indicate a successful or
+      <span class="alert-link"> link here</span> positive action.
     </div>
   </body>
 </html>
